@@ -1,4 +1,4 @@
-package com.math.poc.poc_01.infrastructure.config.redis;
+package com.math.poc.poc_01.infrastructure.config.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.config.EnableWebFlux;
