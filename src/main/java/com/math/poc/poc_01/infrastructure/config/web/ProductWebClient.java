@@ -12,7 +12,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @RequiredArgsConstructor
 public class ProductWebClient {
 
-    @Value("${koral.url:https://uat-koral-api.koin.com.br}")
+    @Value("${koral.url:https://localhost:8080}")
     private String koralUrl;
 
     @Bean
